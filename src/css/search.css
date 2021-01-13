@@ -1,0 +1,163 @@
+/*<div className="search">
+	<h1 className="search-title"> Search Movie </h1>
+	<input className="search-input" type="text" placeholder="Type its name"/> 
+</div>*/
+
+.search{
+	display:flex;
+	flex-direction:column;
+	font-family: 'Quicksand', sans-serif;
+	align-items: center;
+	margin-top:100px;
+}
+
+.search .search-title-unvisible{
+	opacity: 0;
+	font-size:50px;
+}
+
+.search .search-title{
+	margin:20px;
+	font-size:50px;
+	color:#94ecf7;
+	opacity: 1;
+	transition: opacity 2s ease-in;
+}
+
+.search .search-input-container{
+	display: flex;
+	align-items: center;
+}
+
+.search .search-input-unvisible{
+	padding:7px;
+	font-size:15px;
+	width:80%;
+	opacity: 0;
+	transform:translate(0px,100px);
+}
+
+.search .search-input{
+	padding:7px;
+	background: #535d5e;
+	border-radius:10px;
+	color:lightgrey;
+	font-size:15px;
+	width:200px;
+
+	transition:1.5s;
+	opacity: 1;
+}
+
+.search .search-icon-unvisible{
+	margin-left:10px;
+	opacity: 0;
+}
+
+.search .search-icon{
+	margin-left:10px;
+	color:lightgrey;
+	opacity: 1;
+	transition:2s;
+}
+
+.search .search-input::placeholder{
+	color:lightgrey;
+	text-align: center;
+	transition:2s;
+}
+
+.search .search-input:focus{
+	outline: none;	
+}
+
+.search .search-input:focus::placeholder{
+	transition: 1s;
+	transform:translate(100px,0px);
+	color:transparent;
+}
+
+.search .search-input:focus ~ i {
+	transition:0.7s;
+	transform:translate(10px,0px);
+	font-size:20px;
+	color:#94ecf7;
+}
+
+
+/*End of search input and title*/
+
+/*
+<div className="search-results">
+	<h2 className="search-results-header"> Results Header </h2>
+</div>
+*/
+
+.search-results-unvisible{
+	width:0px;
+	opacity: 0;
+	margin-top:30px;
+	font-size:13px;
+}
+
+.search-results{
+	padding:15px;
+	background:#36626b;
+	margin-top:30px;
+	color:lightgrey;
+	border-radius: 15px;
+	border:medium outset grey;
+	font-family: sans-serif;
+	font-size:13px;
+	width:80vw;
+	opacity:1;
+	transition:2s;
+	text-align: center;
+}
+
+.search-results-body{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.movie{
+	margin:10px;
+}
+
+.movie{
+	width:200px;
+	height:270px;
+	background-size: cover;
+}
+
+.movie .movie-body{
+	padding:30px;
+	height:210px;
+	opacity: 0;
+	transform: scale(0.4);
+    transform-origin: bottom right;
+}
+
+.movie:hover .movie-body{
+	background: #590000;
+	opacity: 1;
+	transition: 0.6s;
+	transform: scale(1);
+}
+
+.movie .movie-text{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	align-content: center;
+	justify-content: space-between;
+	transform: translateY(50px);
+}
+
+.movie .movie-text .movie-year{
+	margin-bottom: 20px
+}
+
+
+

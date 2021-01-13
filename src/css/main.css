@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+body{
+	background-image: linear-gradient(to top, #a233de, #020d63);
+	background-repeat:no-repeat;
+	height: 100%;
+}
+
+.search-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction:column;
+	min-height: 100vh;
+}
+

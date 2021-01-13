@@ -1,0 +1,34 @@
+.navbar{
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	position: fixed;
+	top:0px;
+	right:0px;
+	left:0px;
+	background:#0a0f4f;
+	color:#94ecf7;
+	font-family: 'Quicksand', sans-serif;
+	padding:0px 30px;
+	z-index: 500;
+}
+
+.navbar .navbar-title{
+	font-size:25px;
+	color:#baffeb;
+}
+
+.navbar .navbar-ul{
+	display:flex;
+	margin:0px;
+}
+
+.navbar .navbar-li:hover{
+	background: #8acfbb;
+	color:#0a0f4f;
+}
+
+.navbar .navbar-li{
+	padding:25px;
+	list-style-type:none;
+}
