@@ -1,6 +1,6 @@
 {
-  "homepage":"https://rcontre360.github.io/Movie-Searcher",
-  "name": "myreactapp",
+  "name": "moviesearcher",
+  "author":"Rafael Contreras",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
