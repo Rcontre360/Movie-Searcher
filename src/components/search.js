@@ -65,7 +65,7 @@ const MainSearch = ()=>{
 			setShowData(true);
 			axios({
 			  method: 'get',
-			  url: 'http://www.omdbapi.com/?apikey=475f09ed&s='+movie
+			  url: 'https://www.omdbapi.com/?apikey=475f09ed&s='+movie
 			})
 			.then((response)=>{
 				setLoading([...response.data.Search]);
