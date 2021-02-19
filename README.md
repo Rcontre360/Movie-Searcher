@@ -1,4 +1,21 @@
-# Getting Started with Movie Searcher
+# Movie Searcher
+
+Web Aplication to search movies using the OMDB API.
+
+## Dependencies 
+
+This project was possible thanks to these dependencies:
+
+- create-react-app
+- react
+- react-dom
+- axios
+
+## Use the application
+	
+This is a simple application using react and with OMDB, an API to search movies. The API key is 475f09ed, it must be sent as a query parameter o each request. 
+
+To search a movie just tipe its name on the search input. OMDB API only retrieves a maximum of 10 results on each request.
 
 ## Available Scripts
 
@@ -36,9 +53,3 @@ If you aren’t satisfied with the build tool and configuration choices, you can
 Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Use the application
-	
-This is a simple application using react and with OMDB, an API to search movies. The API key is 475f09ed, it must be sent as a query parameter o each request. 
-
-To search a movie just tipe its name on the search input. OMDB API only retrieves a maximum of 10 results on each request.
